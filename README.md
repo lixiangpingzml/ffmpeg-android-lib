@@ -1,7 +1,9 @@
 FFmpeg README
 =============
+增加h.264格式的编解码库 ，库的源码和编译条件参考 https://github.com/lixiangpingzml/x264/tree/master
 
 建议在ubuntu 14环境下面编译，我在windows下面编译，会有很多环境设置和路径配置通不过。
+在build_android.sh脚本，配置好ndk环境路径，链接h.264的库和头文件，执行脚本，就会生成我们在android平台使用的动态so库
 
 FFmpeg is a collection of libraries and tools to process multimedia content
 such as audio, video, subtitles and related metadata.
