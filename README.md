@@ -1,6 +1,8 @@
 FFmpeg README
 =============
 
+建议在ubuntu 14环境下面编译，我在windows下面编译，会有很多环境设置和路径配置通不过。
+
 FFmpeg is a collection of libraries and tools to process multimedia content
 such as audio, video, subtitles and related metadata.
 
