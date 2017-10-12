@@ -21,7 +21,7 @@ function build_one
 --disable-stripping \
 --nm=$PREBUILT/bin/arm-linux-androideabi-nm \
 --sysroot=$PLATFORM \
---enable-gpl --enable-shared --disable-static --enable-nonfree --enable-version3 --enable-small --disable-vda --disable-iconv \
+--enable-gpl --enable-shared --disable-static --enable-nonfree --enable-version3 --enable-small  --enable-avresample --disable-vda --disable-iconv \
 --disable-encoders --enable-libx264 --enable-encoder=libx264  \
 --disable-muxers --enable-muxer=mov --enable-muxer=ipod --enable-muxer=psp --enable-muxer=mp4 --enable-muxer=avi \
 --disable-decoders --enable-decoder=aac --enable-decoder=aac_latm --enable-decoder=h264 --enable-decoder=mpeg4 \
